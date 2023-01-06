@@ -1,0 +1,38 @@
+Plants
+          Kingdom
+                   Plantae
+                          Chlorophyta
+                          Bryophyta
+                    Fungi
+                          Ascomycota
+                    Protista
+          Genus
+                    Rosa
+                          Rosa_Canina
+                    Prunum
+                          Prunus_Dulcis
+                          Prunus_Cerasus
+          Plant_Type
+                    Herb
+                    Tree
+          Flower_Type
+                    Single
+                    Double
+
+In this plant ontology, the following classes are subsumptions of others:
+
+Kingdom is a subsumption of Plantae, Fungi, and Protista.
+Plantae is a subsumption of Chlorophyta and Bryophyta.
+Fungi is a subsumption of Ascomycota.
+Genus is a subsumption of Rosa and Prunum.
+Rosa is a subsumption of Rosa_Canina.
+Prunum is a subsumption of Prunus_Dulcis and Prunus_Cerasus.
+A subsumption relationship between two classes means that one class (the subclass) is a more specific or refined version of the other class (the superclass). In this case, the subclasses are subsumed by the superclasses, meaning that they are included within the broader domain represented by the superclass.
+
+For example, the Kingdom class includes the Plantae, Fungi, and Protista classes, which represent more specific categories within the plant kingdom. Similarly, the Plantae class includes the Chlorophyta and Bryophyta classes, which represent more specific categories within the plant kingdom.
+
+
+
+
+
+
