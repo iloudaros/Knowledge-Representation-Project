@@ -157,39 +157,7 @@ Palmate: This class represents plants with leaves that are divided into several 
 
 =================================================================================================================
 
-PROPERTIES
 
-Datatype property: scientificName (string)
-
-Datatype property: height (decimal)
-
-Datatype property: leafSize (decimal)
-
-Datatype property: flowerSize (decimal)
-
-Datatype property: fruitSize (decimal)
-
-Datatype property: leafShape (string)
-
-Datatype property: flowerColor (string)
-
-Datatype property: fruitColor (string)
-
-Object property: hasLeaves (Leaf)
-
-Object property: hasFlowers (Flower)
-
-Object property: hasFruits (Fruit)
-
-Object property: growsIn (Habitat)
-
-Object property: belongsToFamily (PlantFamily)
-
-Object property: hasScientificClassification (ScientificClassification)
-
-Object property: hasCommonName (CommonName)
-
-Object property: hasSynonyms (Synonym)
 RESTRICTIONS.
 
 
