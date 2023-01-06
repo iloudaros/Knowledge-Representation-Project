@@ -1,0 +1,327 @@
+Kingdom: This class represents the highest level of classification in the plant kingdom, and includes subclasses such as "Plantae," "Fungi," and "Protista."
+
+Phylum: This class represents the second highest level of classification in the plant kingdom, and includes subclasses such as "Chlorophyta," "Bryophyta," and "Pteridophyta."
+
+Class: This class represents the third highest level of classification in the plant kingdom, and includes subclasses such as "Monocots," "Dicots," and "Gymnosperms."
+
+Order: This class represents the fourth highest level of classification in the plant kingdom, and includes subclasses such as "Asterids," "Rosids," and "Caryophyllales."
+
+Family: This class represents the fifth highest level of classification in the plant kingdom, and includes subclasses such as "Asteraceae," "Lamiaceae," and "Solanaceae."
+
+Genus: This class represents a group of closely related species, and includes subclasses such as "Rosa," "Prunus," and "Solanum."
+
+Species: This class represents a group of organisms that are able to reproduce and produce offspring that are also capable of reproducing.
+
+Plant type: This class represents the general type of plant, such as "herb," "shrub," or "tree."
+
+Leaf type: This class represents the shape and arrangement of a plant's leaves, such as "simple," "compound," or "palmate."
+
+Leaf margin: This class represents the shape of the edge of a plant's leaves, such as "smooth," "serrated," or "lobed."
+
+Leaf arrangement: This class represents the way in which a plant's leaves are arranged on the stem, such as "alternate," "opposite," or "whorled."
+
+Flower type: This class represents the general type of a plant's flowers, such as "single," "double," or "clustered."
+
+Flower color: This class represents the color of a plant's flowers, such as "red," "yellow," or "pink."
+
+Fruit type: This class represents the type of fruit produced by a plant, such as "berry," "drupe," or "pome."
+
+Fruit color: This class represents the color of a plant's fruit, such as "red," "yellow," or "green."
+
+Habitat: This class represents the natural environment in which a plant grows, such as "desert," "grassland," or "rainforest."
+
+Soil type: This class represents the type of soil in which a plant grows best, such as "sandy," "clay," or "loamy."
+
+Climate: This class represents the general climate in which a plant grows best, such as "temperate," "tropical," or "arid."
+
+========================================================================
+
+Level 1:
+
+Kingdom: This class represents the highest level of classification in the plant kingdom, and includes subclasses such as "Plantae," "Fungi," and "Protista."
+
+Phylum: This class represents the second highest level of classification in the plant kingdom, and includes subclasses such as "Chlorophyta," "Bryophyta," and "Pteridophyta."
+
+Class: This class represents the third highest level of classification in the plant kingdom, and includes subclasses such as "Monocots," "Dicots," and "Gymnosperms."
+
+Level 2:
+4. Order: This class represents the fourth highest level of classification in the plant kingdom, and includes subclasses such as "Asterids," "Rosids," and "Caryophyllales."
+
+Family: This class represents the fifth highest level of classification in the plant kingdom, and includes subclasses such as "Asteraceae," "Lamiaceae," and "Solanaceae."
+
+Genus: This class represents a group of closely related species, and includes subclasses such as "Rosa," "Prunus," and "Solanum."
+
+Level 3:
+7. Species: This class represents a group of organisms that are able to reproduce and produce offspring that are also capable of reproducing.
+
+Plant type: This class represents the general type of plant, such as "herb," "shrub," or "tree."
+
+Leaf type: This class represents the shape and arrangement of a plant's leaves, such as "simple," "compound," or "palmate."
+
+Leaf margin: This class represents the shape of the edge of a plant's leaves, such as "smooth," "serrated," or "lobed."
+
+Leaf arrangement: This class represents the way in which a plant's leaves are arranged on the stem, such as "alternate," "opposite," or "whorled."
+
+Flower type: This class represents the general type of a plant's flowers, such as "single," "double," or "clustered."
+
+Flower color: This class represents the color of a plant's flowers, such as "red," "yellow," or "pink."
+
+Fruit type: This class represents the type of fruit produced by a plant, such as "berry," "drupe," or "pome."
+
+Fruit color: This class represents the color of a plant's fruit, such as "red," "yellow," or "green."
+
+Habitat: This class represents the natural environment in which a plant grows, such as "desert," "grassland," or "rainforest."
+
+Soil type: This class represents the type of soil in which a plant grows best, such as "sandy," "clay," or "loamy."
+
+Climate: This class represents the general climate in which a plant grows best, such as "temperate," "tropical," or "arid."
+
+
+==============================================================================
+SUBSUMED
+
+Annual: This class represents plants that complete their life cycle in a single growing season, and could be subsumed within the "plant type" class.
+
+Perennial: This class represents plants that live for more than two growing seasons, and could be subsumed within the "plant type" class.
+
+Biennial: This class represents plants that require two growing seasons to complete their life cycle, and could be subsumed within the "plant type" class.
+
+Woody: This class represents plants with persistent woody stems, and could be subsumed within the "plant type" class.
+
+Leaf shape: This class represents the shape of a plant's leaves, such as "oval," "lanceolate," or "deltoid," and could be subsumed within the "leaf type" class.
+
+Leaf venation: This class represents the pattern of veins in a plant's leaves, such as "parallel," "pinnate," or "palmate," and could be subsumed within the "leaf type" class.
+
+
+================================================================================
+DISJOINT
+
+Annual: This class represents plants that complete their life cycle in a single growing season, and could be disjointed from the "perennial" and "biennial" classes.
+
+Perennial: This class represents plants that live for more than two growing seasons, and could be disjointed from the "annual" and "biennial" classes.
+
+Biennial: This class represents plants that require two growing seasons to complete their life cycle, and could be disjointed from the "annual" and "perennial" classes.
+
+Simple: This class represents plants with leaves that are not divided into smaller parts, and could be disjointed from the "compound" and "palmate" classes.
+
+Compound: This class represents plants with leaves that are divided into smaller parts, and could be disjointed from the "simple" and "palmate" classes.
+
+Palmate: This class represents plants with leaves that are divided into several leaflets arranged like the fingers on a hand, and could be disjointed from the "simple" and "compound" classes
+
+
+================================================================================
+INTERSECTION 
+
+
+Deciduous: This class represents plants that lose their leaves seasonally, and could be an intersection of the "herb," "shrub," and "tree" classes.
+
+Evergreen: This class represents plants that retain their leaves throughout the year, and could be an intersection of the "herb," "shrub," and "tree" classes.
+
+Monocot: This class represents plants with seeds that have one cotyledon (a embryonic leaf), and could be an intersection of the "herb," "shrub," and "tree" classes.
+
+Dicot: This class represents plants with seeds that have two cotyledons, and could be an intersection of the "herb," "shrub," and "tree" classes.
+
+Tree: This class represents plants with persistent woody stems that are greater than 3 meters tall, and could be an intersection of the "herb," "shrub," and "perennial" classes.
+
+Shrub: This class represents plants with persistent woody stems that are less than 3 meters tall, and could be an intersection of the "herb," "tree," and "perennial" classes.
+
+===============================================================================
+UNION
+
+Herbaceous: This class represents plants that do not have persistent woody stems, and could be a union of the "annual," "perennial," and "biennial" classes.
+
+Angiosperm: This class represents flowering plants, and could be a union of the "monocot" and "dicot" classes.
+
+Gymnosperm: This class represents plants with seeds that are not enclosed in a fruit, and could be a union of the "conifer," "cycad," and "ginkgo" classes.
+
+Monocotyledon: This class represents plants with seeds that have one cotyledon (a embryonic leaf), and could be a union of the "lily," "orchid," and "grass" classes.
+
+Dicotyledon: This class represents plants with seeds that have two cotyledons, and could be a union of the "rose," "sunflower," and "bean" classes.
+
+Woody plant: This class represents plants with persistent woody stems, and could be a union of the "tree" and "shrub" classes.
+
+===============================================================================
+COMPLEMENT
+
+Deciduous: This class represents plants that lose their leaves seasonally, and could be the complement of the "evergreen" class.
+
+Monocot: This class represents plants with seeds that have one cotyledon (a embryonic leaf), and could be the complement of the "dicot" class.
+
+Dicot: This class represents plants with seeds that have two cotyledons, and could be the complement of the "monocot" class.
+
+Simple: This class represents plants with leaves that are not divided into smaller parts, and could be the complement of the "compound" and "palmate" classes.
+
+Compound: This class represents plants with leaves that are divided into smaller parts, and could be the complement of the "simple" and "palmate" classes.
+
+Palmate: This class represents plants with leaves that are divided into several leaflets arranged like the fingers on a hand, and could be the complement of the "simple" and "compound" classes.
+
+=================================================================================================================
+
+PROPERTIES
+
+Datatype property: scientificName (string)
+
+Datatype property: height (decimal)
+
+Datatype property: leafSize (decimal)
+
+Datatype property: flowerSize (decimal)
+
+Datatype property: fruitSize (decimal)
+
+Datatype property: leafShape (string)
+
+Datatype property: flowerColor (string)
+
+Datatype property: fruitColor (string)
+
+Object property: hasLeaves (Leaf)
+
+Object property: hasFlowers (Flower)
+
+Object property: hasFruits (Fruit)
+
+Object property: growsIn (Habitat)
+
+Object property: belongsToFamily (PlantFamily)
+
+Object property: hasScientificClassification (ScientificClassification)
+
+Object property: hasCommonName (CommonName)
+
+Object property: hasSynonyms (Synonym)
+RESTRICTIONS.
+
+
+-EXISTENTIAL RESTRICTION
+A plant must have at least one leaf: In this case, the class "Plant" would be restricted by the existential restriction "has at least one leaf," which specifies that all plants must have at least one instance of the "Leaf" class.
+
+A tree must have at least one branch: In this case, the class "Tree" would be restricted by the existential restriction "has at least one branch," which specifies that all trees must have at least one instance of the "Branch" class.
+
+A flower must have at least one petal: In this case, the class "Flower" would be restricted by the existential restriction "has at least one petal," which specifies that all flowers must have at least one instance of the "Petal" class.
+
+A fruit must have at least one seed: In this case, the class "Fruit" would be restricted by the existential restriction "has at least one seed," which specifies that all fruits must have at least one instance of the "Seed" class.
+
+A plant must grow in at least one habitat: In this case, the class "Plant" would be restricted by the existential restriction "grows in at least one habitat," which specifies that all plants must have at least one instance of the "Habitat" class.
+
+
+Leafy plant: This class could result from applying the existential restriction "has at least one leaf" to the class "Plant."
+
+Branched tree: This class could result from applying the existential restriction "has at least one branch" to the class "Tree."
+
+Petaled flower: This class could result from applying the existential restriction "has at least one petal" to the class "Flower."
+
+Seeded fruit: This class could result from applying the existential restriction "has at least one seed" to the class "Fruit."
+
+Habitat-dwelling plant: This class could result from applying the existential restriction "grows in at least one habitat" to the class "Plant."
+
+
+-UNIVERSAL RESTRICTION
+All plants have chlorophyll: In this case, the class "Plant" could be restricted by the universal restriction "has chlorophyll," which specifies that all plants must have the characteristic of containing chlorophyll.
+
+All shrubs have woody stems: In this case, the class "Shrub" could be restricted by the universal restriction "has woody stem," which specifies that all shrubs must have woody stems.
+
+All flowers have sepals and petals: In this case, the class "Flower" could be restricted by the universal restriction "has sepals and petals," which specifies that all flowers must have both sepals and petals.
+
+All trees are taller than 3 meters: In this case, the class "Tree" could be restricted by the universal restriction "is taller than 3 meters," which specifies that all trees must be taller than 3 meters.
+
+All fruits are edible: In this case, the class "Fruit" could be restricted by the universal restriction "is edible," which specifies that all fruits are suitable for consumption.
+
+
+Chlorophyll-containing plant: This class could result from applying the universal restriction "has chlorophyll" to the class "Plant."
+
+Woody-stemmed shrub: This class could result from applying the universal restriction "has woody stem" to the class "Shrub."
+
+Sepaled and petaled flower: This class could result from applying the universal restriction "has sepals and petals" to the class "Flower."
+
+Tall tree: This class could result from applying the universal restriction "is taller than 3 meters" to the class "Tree."
+
+Edible fruit: This class could result from applying the universal restriction "is edible" to the class "Fruit."
+
+
+-HASVALUE RESTRICTION
+A plant has a specific scientific name: In this case, the class "Plant" could be restricted by the hasValue restriction "has scientific name," which specifies that all plants must have a specific scientific name.
+
+A tree has a specific height: In this case, the class "Tree" could be restricted by the hasValue restriction "has height," which specifies that all trees must have a specific height.
+
+A flower has a specific number of petals: In this case, the class "Flower" could be restricted by the hasValue restriction "has number of petals," which specifies that all flowers must have a specific number of petals.
+
+A fruit has a specific color: In this case, the class "Fruit" could be restricted by the hasValue restriction "has color," which specifies that all fruits must have a specific color.
+
+A plant has a specific habitat: In this case, the class "Plant" could be restricted by the hasValue restriction "has habitat," which specifies that all plants must grow in a specific habitat.
+
+
+Plant with scientific name "Acer rubrum": This class could result from applying the hasValue restriction "has scientific name" to the class "Plant," with the value "Acer rubrum."
+
+Tree with height 10 meters: This class could result from applying the hasValue restriction "has height" to the class "Tree," with the value "10 meters."
+
+Flower with 5 petals: This class could result from applying the hasValue restriction "has number of petals" to the class "Flower," with the value "5."
+
+Fruit with color red: This class could result from applying the hasValue restriction "has color" to the class "Fruit," with the value "red."
+
+Plant with habitat "desert": This class could result from applying the hasValue restriction "has habitat" to the class "Plant," with the value "desert."
+
+
+-MINIMUM CARDINALITY
+A plant must have at least 3 leaves: In this case, the class "Plant" could be restricted by the minimum cardinality restriction "has at least 3 leaves," which specifies that all plants must have at least 3 leaves.
+
+A tree must have at least 5 branches: In this case, the class "Tree" could be restricted by the minimum cardinality restriction "has at least 5 branches," which specifies that all trees must have at least 5 branches.
+
+A flower must have at least 4 petals: In this case, the class "Flower" could be restricted by the minimum cardinality restriction "has at least 4 petals," which specifies that all flowers must have at least 4 petals.
+
+A fruit must have at least 6 seeds: In this case, the class "Fruit" could be restricted by the minimum cardinality restriction "has at least 6 seeds," which specifies that all fruits must have at least 6 seeds.
+
+A plant must grow in at least 2 habitats: In this case, the class "Plant" could be restricted by the minimum cardinality restriction "grows in at least 2 habitats," which specifies that all plants must grow in at least 2 habitats.
+
+
+Plant with at least 3 leaves: This class could result from applying the minimum cardinality restriction "has at least 3 leaves" to the class "Plant."
+
+Tree with at least 5 branches: This class could result from applying the minimum cardinality restriction "has at least 5 branches" to the class "Tree."
+
+Flower with at least 4 petals: This class could result from applying the minimum cardinality restriction "has at least 4 petals" to the class "Flower."
+
+Fruit with at least 6 seeds: This class could result from applying the minimum cardinality restriction "has at least 6 seeds" to the class "Fruit."
+
+Plant growing in at least 2 habitats: This class could result from applying the minimum cardinality restriction "grows in at least 2 habitats" to the class "Plant.
+
+
+-MAXIMUM CARDINALITY
+A plant can have at most 10 leaves: In this case, the class "Plant" could be restricted by the maximum cardinality restriction "has at most 10 leaves," which specifies that all plants can have at most 10 leaves.
+
+A tree can have at most 20 branches: In this case, the class "Tree" could be restricted by the maximum cardinality restriction "has at most 20 branches," which specifies that all trees can have at most 20 branches.
+
+A flower can have at most 8 petals: In this case, the class "Flower" could be restricted by the maximum cardinality restriction "has at most 8 petals," which specifies that all flowers can have at most 8 petals.
+
+A fruit can have at most 12 seeds: In this case, the class "Fruit" could be restricted by the maximum cardinality restriction "has at most 12 seeds," which specifies that all fruits can have at most 12 seeds.
+
+A plant can grow in at most 3 habitats: In this case, the class "Plant" could be restricted by the maximum cardinality restriction "grows in at most 3 habitats," which specifies that all plants can grow in at most 3 habitats.
+
+Plant with at most 10 leaves: This class could result from applying the maximum cardinality restriction "has at most 10 leaves" to the class "Plant."
+
+Tree with at most 20 branches: This class could result from applying the maximum cardinality restriction "has at most 20 branches" to the class "Tree."
+
+Flower with at most 8 petals: This class could result from applying the maximum cardinality restriction "has at most 8 petals" to the class "Flower."
+
+Fruit with at most 12 seeds: This class could result from applying the maximum cardinality restriction "has at most 12 seeds" to the class "Fruit."
+
+Plant growing in at most 3 habitats: This class could result from applying the maximum cardinality restriction "grows in at most 3 habitats" to the class "Plant."
+
+
+============================================================================================================================================================
+COMBINATIONS
+
+Woody-stemmed, petaled flowers: This class could be created by intersecting the classes "Woody-stemmed shrub" and "Petaled flower," which could be created by applying the restrictions "has woody stem" and "has at least one petal," respectively, to the class "Shrub" and "Flower."
+
+Trees that are not tall: This class could be created by taking the complement of the class "Tall tree," which could be created by applying the restriction "is taller than 3 meters" to the class "Tree."
+
+Edible, seeded fruit: This class could be created by intersecting the classes "Edible fruit" and "Seeded fruit," which could be created by applying the restrictions "is edible" and "has at least one seed," respectively, to the class "Fruit."
+
+Flowers that are not petaled: This class could be created by taking the complement of the class "Petaled flower," which could be created by applying the restriction "has at least one petal" to the class "Flower."
+
+Woody-stemmed, leafy plants: This class could be created by intersecting the classes "Woody-stemmed shrub" and "Leafy plant," which could be created by applying the restrictions "has woody stem" and "has at least one leaf," respectively, to the classes "Shrub" and "Plant."
+
+Plants that grow in either desert or mountain habitats: This class could be created by taking the union of the classes "Desert-dwelling plant" and "Mountain-dwelling plant," which could be created by applying the restrictions "grows in desert habitat" and "grows in mountain habitat," respectively, to the class "Plant."
+
+Trees that are either tall or short: This class could be created by taking the union of the classes "Tall tree" and "Short tree," which could be created by applying the restrictions "is taller than 3 meters" and "is shorter than 3 meters," respectively, to the class "Tree."
+
+
