@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/iloudaros/ontologies/2023/0/Electronics"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/iloudaros/ontologies/2023/0/Electronics">
+    <Prefix name="" IRI="http://www.semanticweb.org/iloudaros/ontologies/2023/0/Electronics"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computing_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electronic_Part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FaceID_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPS_Enabled_SW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPS_Locator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HDD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handheld_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hard_Drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laptop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAC_Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motherboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multicore_CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal_Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Powerbook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SSD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serial_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Server"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singlecore_CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smart_Glasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smart_Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Super_Portable_Laptop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TouchID_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touch_Screen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unique_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wearable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mac_address"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_serial_number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_compatible_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_mac_address_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_more_expensive_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_serial_number_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manufactured_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manufactures"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#freq"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#width"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FaceID_Sensor"/>
+        <Class IRI="#Security_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPS_Enabled_SW"/>
+        <Class IRI="#Smart_Watch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPS_Locator"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPU"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HDD"/>
+        <Class IRI="#Hard_Drive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handheld_Device"/>
+        <Class IRI="#Portable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hard_Drive"/>
+        <Class IRI="#Memory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Portable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAC_Address"/>
+        <Class IRI="#Unique_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motherboard"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multicore_CPU"/>
+        <Class IRI="#CPU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personal_Computer"/>
+        <Class IRI="#Stable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phone"/>
+        <Class IRI="#Handheld_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portable"/>
+        <Class IRI="#Computing_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Powerbook"/>
+        <Class IRI="#Laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RAM"/>
+        <Class IRI="#Memory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SSD"/>
+        <Class IRI="#Hard_Drive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serial_Number"/>
+        <Class IRI="#Unique_Number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Server"/>
+        <Class IRI="#Stable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singlecore_CPU"/>
+        <Class IRI="#CPU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smart_Glasses"/>
+        <Class IRI="#Wearable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smart_Watch"/>
+        <Class IRI="#Wearable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stable"/>
+        <Class IRI="#Computing_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Super_Portable_Laptop"/>
+        <Class IRI="#Laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#Handheld_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouchID_Sensor"/>
+        <Class IRI="#Security_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touch_Screen"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wearable"/>
+        <Class IRI="#Portable"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CPU"/>
+        <Class IRI="#GPU"/>
+        <Class IRI="#Memory"/>
+        <Class IRI="#Motherboard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FaceID_Sensor"/>
+        <Class IRI="#TouchID_Sensor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GPS_Locator"/>
+        <Class IRI="#Security_Feature"/>
+        <Class IRI="#Touch_Screen"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HDD"/>
+        <Class IRI="#SSD"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Handheld_Device"/>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Wearable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hard_Drive"/>
+        <Class IRI="#RAM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Multicore_CPU"/>
+        <Class IRI="#Singlecore_CPU"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Portable"/>
+        <Class IRI="#Stable"/>
+    </DisjointClasses>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cores"/>
+        <DataProperty IRI="#specs"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#freq"/>
+        <DataProperty IRI="#specs"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#height"/>
+        <DataProperty IRI="#size"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#length"/>
+        <DataProperty IRI="#size"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#size"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#width"/>
+        <DataProperty IRI="#size"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
