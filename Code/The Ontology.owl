@@ -183,6 +183,195 @@
     <Declaration>
         <DataProperty IRI="#width"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ADATA_XPG_Gammix_S50_1TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMD_Athlon_XP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMD_Radeon_RX_6900_XT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMD_Ryzen_5_5600X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMD_Ryzen_9_5900X"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASRock_AB350M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASUS_ROG_Maximus_XII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alienware_Aurora_R11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple_Watch_Series_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cisco_UCS_C220_M5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corsair_Vengeance_LPX_16GB_DDR4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dell_PowerEdge_R740"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dell_Precision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fitbit_Versa_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G.Skill_Ripjaws_V_16GB_DDR4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garmin_Forerunner_245"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garmin_Vivoactive_4S"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Pixel_4a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Pixelbook_Go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HGST_Ultrastar_7K8000_12TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HP_Elite_Dragonfly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HP_ZBook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huawei_MediaPad_M5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huawei_P40_Pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huawei_Watch_GT_2_Pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intel_Core_i7-11700K"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intel_Core_i9-11900K"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intel_Pentium_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intel_Xeon_Platinum_8380"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kindle_Fire_HDX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kingston_A2000_NVMe_1TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lenovo_ThinkSystem_SR635"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MSI_MPG_Z490"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MacBook_Air"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meta_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft_Hololens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft_Surface_Studio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3060"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3090"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oppo_A53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polar_M430"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PowerBook_G3_Wallstreet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PowerBook_G4_Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samsung_860_EVO_1TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samsung_Galaxy_S21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samsung_Galaxy_Tab_S7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seagate_Barracuda_2TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seagate_SkyHawk_Surveillance_8TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TomTom_Spark_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toshiba_P300_3TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TouchID_Sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TouchID_Sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Western_Digital_Blue_1TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iMac_Pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iPhone_12_Pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#111111111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#123456789"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#48-5D-60-F5-5F-A4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#48-5D-60-F5-5F-A5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#48-5D-60-F5-5F-A6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#987654321"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iPad_Pro_(2022)"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#CPU"/>
         <Class IRI="#Electronic_Part"/>
@@ -343,6 +532,258 @@
         <Class IRI="#Portable"/>
         <Class IRI="#Stable"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#SSD"/>
+        <NamedIndividual IRI="#ADATA_XPG_Gammix_S50_1TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singlecore_CPU"/>
+        <NamedIndividual IRI="#AMD_Athlon_XP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPU"/>
+        <NamedIndividual IRI="#AMD_Radeon_RX_6900_XT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multicore_CPU"/>
+        <NamedIndividual IRI="#AMD_Ryzen_5_5600X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multicore_CPU"/>
+        <NamedIndividual IRI="#AMD_Ryzen_9_5900X"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motherboard"/>
+        <NamedIndividual IRI="#ASRock_AB350M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motherboard"/>
+        <NamedIndividual IRI="#ASUS_ROG_Maximus_XII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personal_Computer"/>
+        <NamedIndividual IRI="#Alienware_Aurora_R11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Enabled_SW"/>
+        <NamedIndividual IRI="#Apple_Watch_Series_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Server"/>
+        <NamedIndividual IRI="#Cisco_UCS_C220_M5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RAM"/>
+        <NamedIndividual IRI="#Corsair_Vengeance_LPX_16GB_DDR4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Server"/>
+        <NamedIndividual IRI="#Dell_PowerEdge_R740"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personal_Computer"/>
+        <NamedIndividual IRI="#Dell_Precision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Enabled_SW"/>
+        <NamedIndividual IRI="#Fitbit_Versa_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RAM"/>
+        <NamedIndividual IRI="#G.Skill_Ripjaws_V_16GB_DDR4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Locator"/>
+        <NamedIndividual IRI="#Garmin_Forerunner_245"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Enabled_SW"/>
+        <NamedIndividual IRI="#Garmin_Vivoactive_4S"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smart_Glasses"/>
+        <NamedIndividual IRI="#Google_Glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phone"/>
+        <NamedIndividual IRI="#Google_Pixel_4a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Super_Portable_Laptop"/>
+        <NamedIndividual IRI="#Google_Pixelbook_Go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDD"/>
+        <NamedIndividual IRI="#HGST_Ultrastar_7K8000_12TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Super_Portable_Laptop"/>
+        <NamedIndividual IRI="#HP_Elite_Dragonfly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personal_Computer"/>
+        <NamedIndividual IRI="#HP_ZBook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Huawei_MediaPad_M5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phone"/>
+        <NamedIndividual IRI="#Huawei_P40_Pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Enabled_SW"/>
+        <NamedIndividual IRI="#Huawei_Watch_GT_2_Pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multicore_CPU"/>
+        <NamedIndividual IRI="#Intel_Core_i7-11700K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multicore_CPU"/>
+        <NamedIndividual IRI="#Intel_Core_i9-11900K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singlecore_CPU"/>
+        <NamedIndividual IRI="#Intel_Pentium_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multicore_CPU"/>
+        <NamedIndividual IRI="#Intel_Xeon_Platinum_8380"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Kindle_Fire_HDX"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SSD"/>
+        <NamedIndividual IRI="#Kingston_A2000_NVMe_1TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Server"/>
+        <NamedIndividual IRI="#Lenovo_ThinkSystem_SR635"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motherboard"/>
+        <NamedIndividual IRI="#MSI_MPG_Z490"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Super_Portable_Laptop"/>
+        <NamedIndividual IRI="#MacBook_Air"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smart_Glasses"/>
+        <NamedIndividual IRI="#Meta_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smart_Glasses"/>
+        <NamedIndividual IRI="#Microsoft_Hololens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personal_Computer"/>
+        <NamedIndividual IRI="#Microsoft_Surface_Studio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPU"/>
+        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3060"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPU"/>
+        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3090"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phone"/>
+        <NamedIndividual IRI="#Oppo_A53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Locator"/>
+        <NamedIndividual IRI="#Polar_M430"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Powerbook"/>
+        <NamedIndividual IRI="#PowerBook_G3_Wallstreet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Powerbook"/>
+        <NamedIndividual IRI="#PowerBook_G4_Aluminum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SSD"/>
+        <NamedIndividual IRI="#Samsung_860_EVO_1TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phone"/>
+        <NamedIndividual IRI="#Samsung_Galaxy_S21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Samsung_Galaxy_Tab_S7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDD"/>
+        <NamedIndividual IRI="#Seagate_Barracuda_2TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDD"/>
+        <NamedIndividual IRI="#Seagate_SkyHawk_Surveillance_8TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Locator"/>
+        <NamedIndividual IRI="#TomTom_Spark_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDD"/>
+        <NamedIndividual IRI="#Toshiba_P300_3TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TouchID_Sensor"/>
+        <NamedIndividual IRI="#TouchID_Sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TouchID_Sensor"/>
+        <NamedIndividual IRI="#TouchID_Sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HDD"/>
+        <NamedIndividual IRI="#Western_Digital_Blue_1TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personal_Computer"/>
+        <NamedIndividual IRI="#iMac_Pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Phone"/>
+        <NamedIndividual IRI="#iPhone_12_Pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serial_Number"/>
+        <NamedIndividual IRI="#111111111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serial_Number"/>
+        <NamedIndividual IRI="#123456789"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MAC_Address"/>
+        <NamedIndividual IRI="#48-5D-60-F5-5F-A4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MAC_Address"/>
+        <NamedIndividual IRI="#48-5D-60-F5-5F-A5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MAC_Address"/>
+        <NamedIndividual IRI="#48-5D-60-F5-5F-A6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serial_Number"/>
+        <NamedIndividual IRI="#987654321"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#iPad_Pro_(2022)"/>
+    </ClassAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#is_in"/>
