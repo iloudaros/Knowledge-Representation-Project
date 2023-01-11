@@ -223,6 +223,12 @@
         <NamedIndividual IRI="#Dell_Precision"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Face_Recognition_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Face_Unlock_2"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Fitbit_Versa_3"/>
     </Declaration>
     <Declaration>
@@ -341,6 +347,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TouchID_Sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Touch_Screen_00"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Touch_Screen_01"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Western_Digital_Blue_1TB"/>
@@ -585,6 +597,14 @@
         <NamedIndividual IRI="#Dell_Precision"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#FaceID_Sensor"/>
+        <NamedIndividual IRI="#Face_Recognition_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceID_Sensor"/>
+        <NamedIndividual IRI="#Face_Unlock_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GPS_Enabled_SW"/>
         <NamedIndividual IRI="#Fitbit_Versa_3"/>
     </ClassAssertion>
@@ -743,6 +763,14 @@
     <ClassAssertion>
         <Class IRI="#TouchID_Sensor"/>
         <NamedIndividual IRI="#TouchID_Sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Touch_Screen"/>
+        <NamedIndividual IRI="#Touch_Screen_00"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Touch_Screen"/>
+        <NamedIndividual IRI="#Touch_Screen_01"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#HDD"/>
