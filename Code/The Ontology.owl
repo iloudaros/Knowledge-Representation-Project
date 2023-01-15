@@ -19,7 +19,16 @@
         <Class IRI="#Company"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Computing_Device"/>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Current_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desktop_Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electronic_Device"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Electronic_Part"/>
@@ -40,7 +49,16 @@
         <Class IRI="#GPU"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HDD"/>
+        <Class IRI="#GSM_antenna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Desktop_Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_Laptop"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Handheld_Device"/>
@@ -49,10 +67,13 @@
         <Class IRI="#Hard_Drive"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Laptop"/>
+        <Class IRI="#Input_Method"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MAC_Address"/>
+        <Class IRI="#Keyboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laptop"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Memory"/>
@@ -61,34 +82,46 @@
         <Class IRI="#Motherboard"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Mouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multi_input_Device"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Multicore_CPU"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Personal_Computer"/>
+        <Class IRI="#Obsolete_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phablet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Phone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Portable"/>
+        <Class IRI="#Portable_Device"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Powerbook"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantum_CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantum_Computer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#RAM"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SSD"/>
+        <Class IRI="#Secure_Device"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Security_Feature"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Serial_Number"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Server"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Singlecore_CPU"/>
@@ -115,22 +148,55 @@
         <Class IRI="#Touch_Screen"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Unique_Number"/>
+        <Class IRI="#Touch_Screen_Device"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Wearable"/>
+        <Class IRI="#Wearable_Device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CPU_is_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GPU_is_in"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#contains"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_mac_address"/>
+        <ObjectProperty IRI="#contains_CPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_GPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_GSM_antenna"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_Memory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_RAM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_feature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_gps_locator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_input_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_only_input_method"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_same_manufacturer"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_serial_number"/>
+        <ObjectProperty IRI="#has_security_feature"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_cheaper_than"/>
@@ -142,13 +208,7 @@
         <ObjectProperty IRI="#is_in"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_mac_address_of"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#is_more_expensive_than"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_serial_number_of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#manufactured_by"/>
@@ -157,7 +217,13 @@
         <ObjectProperty IRI="#manufactures"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#capacity"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#cores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date_introduced"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#freq"/>
@@ -169,7 +235,7 @@
         <DataProperty IRI="#length"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#name"/>
+        <DataProperty IRI="#screen_size"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#size"/>
@@ -184,213 +250,381 @@
         <DataProperty IRI="#width"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ADATA_XPG_Gammix_S50_1TB"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AMD_Athlon_XP"/>
+        <NamedIndividual IRI="#ena_allo_HardDrive"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AMD_Radeon_RX_6900_XT"/>
+        <NamedIndividual IRI="#ena_allo_keyboard"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AMD_Ryzen_5_5600X"/>
+        <NamedIndividual IRI="#ena_allo_mouse"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AMD_Ryzen_9_5900X"/>
+        <NamedIndividual IRI="#ena_allo_touch_screen"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ASRock_AB350M"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ASUS_ROG_Maximus_XII"/>
+        <NamedIndividual IRI="#ena_faceid_sensor"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Alienware_Aurora_R11"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Apple_Watch_Series_7"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cisco_UCS_C220_M5"/>
+        <NamedIndividual IRI="#ena_gps_enabled_sw"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Corsair_Vengeance_LPX_16GB_DDR4"/>
+        <NamedIndividual IRI="#ena_gps_locator"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Dell_PowerEdge_R740"/>
+        <NamedIndividual IRI="#ena_gpu"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Dell_Precision"/>
+        <NamedIndividual IRI="#ena_gsm_antenna"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Face_Recognition_1"/>
+        <NamedIndividual IRI="#ena_keyboard"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Face_Unlock_2"/>
+        <NamedIndividual IRI="#ena_motherboard"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Fitbit_Versa_3"/>
+        <NamedIndividual IRI="#ena_mouse"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#G.Skill_Ripjaws_V_16GB_DDR4"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Garmin_Forerunner_245"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Garmin_Vivoactive_4S"/>
+        <NamedIndividual IRI="#ena_phablet"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Google_Glass"/>
+        <NamedIndividual IRI="#ena_phone"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Google_Pixel_4a"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Google_Pixelbook_Go"/>
+        <NamedIndividual IRI="#ena_quantum_computer"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HGST_Ultrastar_7K8000_12TB"/>
+        <NamedIndividual IRI="#ena_quantum_cpu"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HP_Elite_Dragonfly"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HP_ZBook"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Huawei_MediaPad_M5"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Huawei_P40_Pro"/>
+        <NamedIndividual IRI="#ena_tablet"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Huawei_Watch_GT_2_Pro"/>
+        <NamedIndividual IRI="#ena_touch_screen"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Intel_Core_i7-11700K"/>
+        <NamedIndividual IRI="#ena_touchid_sensor"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Intel_Core_i9-11900K"/>
+        <NamedIndividual IRI="#ena_trito_HardDrive"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Intel_Pentium_4"/>
+        <NamedIndividual IRI="#ena_trito_touch_screen"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Intel_Xeon_Platinum_8380"/>
+        <NamedIndividual IRI="#foveri_etairia"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kindle_Fire_HDX"/>
+        <NamedIndividual IRI="#kati_smart_glasses"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Kingston_A2000_NVMe_1TB"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Lenovo_ThinkSystem_SR635"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MSI_MPG_Z490"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MacBook_Air"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Meta_2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Microsoft_Hololens"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Microsoft_Surface_Studio"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3060"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3090"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Oppo_A53"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Polar_M430"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PowerBook_G3_Wallstreet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PowerBook_G4_Aluminum"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Samsung_860_EVO_1TB"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Samsung_Galaxy_S21"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Samsung_Galaxy_Tab_S7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Seagate_Barracuda_2TB"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Seagate_SkyHawk_Surveillance_8TB"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#TomTom_Spark_3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Toshiba_P300_3TB"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#TouchID_Sensor_1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#TouchID_Sensor_2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Touch_Screen_00"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Touch_Screen_01"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Western_Digital_Blue_1TB"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#iMac_Pro"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#iPhone_12_Pro"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#111111111"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#123456789"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#48-5D-60-F5-5F-A4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#48-5D-60-F5-5F-A5"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#48-5D-60-F5-5F-A6"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#987654321"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#iPad_Pro_(2022)"/>
-    </Declaration>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tromeri_etairia"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Computer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Device"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#contains_CPU"/>
+                <Class IRI="#CPU"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Current_Device"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Device"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#date_introduced"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T00:00:00</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Desktop_Computer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Computer"/>
+            <Class IRI="#Stable"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GPS_Enabled_SW"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Smart_Watch"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_feature"/>
+                <Class IRI="#GPS_Locator"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gaming_Computer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Computer"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#contains_GPU"/>
+                <Class IRI="#GPU"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#contains_RAM"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#RAM"/>
+                    <DataSomeValuesFrom>
+                        <DataProperty IRI="#capacity"/>
+                        <DatatypeRestriction>
+                            <Datatype abbreviatedIRI="xsd:integer"/>
+                            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+                            </FacetRestriction>
+                        </DatatypeRestriction>
+                    </DataSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gaming_Desktop_Computer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Desktop_Computer"/>
+            <Class IRI="#Gaming_Computer"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gaming_Laptop"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gaming_Computer"/>
+            <Class IRI="#Laptop"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Laptop"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Computer"/>
+            <Class IRI="#Portable_Device"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Memory"/>
+        <ObjectUnionOf>
+            <Class IRI="#Hard_Drive"/>
+            <Class IRI="#RAM"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Memory"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#capacity"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Multi_input_Device"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#has_input_method"/>
+            <Class IRI="#Input_Method"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Multicore_CPU"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CPU"/>
+            <ObjectComplementOf>
+                <Class IRI="#Singlecore_CPU"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Obsolete_Device"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Device"/>
+            <ObjectComplementOf>
+                <Class IRI="#Current_Device"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Phablet"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Phone"/>
+            <Class IRI="#Tablet"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Phone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#GSM_antenna"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Portable_Device"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Device"/>
+            <ObjectUnionOf>
+                <Class IRI="#Handheld_Device"/>
+                <Class IRI="#Laptop"/>
+                <Class IRI="#Wearable_Device"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Powerbook"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Laptop"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#contains_CPU"/>
+                <Class IRI="#Multicore_CPU"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Product"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#date_introduced"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Quantum_Computer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Computer"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#contains_CPU"/>
+                <Class IRI="#Quantum_CPU"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Secure_Device"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#has_security_feature"/>
+            <Class IRI="#Security_Feature"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Singlecore_CPU"/>
+        <DataHasValue>
+            <DataProperty IRI="#cores"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Super_Portable_Laptop"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Laptop"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#weight"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tablet"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Portable_Device"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#screen_size"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:float"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Touch_Screen_Device"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Device"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#has_only_input_method"/>
+                <Class IRI="#Touch_Screen"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#CPU"/>
         <Class IRI="#Electronic_Part"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Computer"/>
+        <Class IRI="#Electronic_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Current_Device"/>
+        <Class IRI="#Electronic_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desktop_Computer"/>
+        <Class IRI="#Stable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronic_Device"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronic_Part"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FaceID_Sensor"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#FaceID_Sensor"/>
         <Class IRI="#Security_Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature"/>
+        <Class IRI="#Electronic_Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GPS_Enabled_SW"/>
@@ -405,24 +639,52 @@
         <Class IRI="#Electronic_Part"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HDD"/>
-        <Class IRI="#Hard_Drive"/>
+        <Class IRI="#GSM_antenna"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GSM_antenna"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Computer"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Desktop_Computer"/>
+        <Class IRI="#Desktop_Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Desktop_Computer"/>
+        <Class IRI="#Gaming_Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Laptop"/>
+        <Class IRI="#Gaming_Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming_Laptop"/>
+        <Class IRI="#Laptop"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Handheld_Device"/>
-        <Class IRI="#Portable"/>
+        <Class IRI="#Portable_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hard_Drive"/>
         <Class IRI="#Memory"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Laptop"/>
-        <Class IRI="#Portable"/>
+        <Class IRI="#Input_Method"/>
+        <Class IRI="#Feature"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MAC_Address"/>
-        <Class IRI="#Unique_Number"/>
+        <Class IRI="#Keyboard"/>
+        <Class IRI="#Input_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Portable_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Memory"/>
@@ -433,44 +695,56 @@
         <Class IRI="#Electronic_Part"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mouse"/>
+        <Class IRI="#Input_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multi_input_Device"/>
+        <Class IRI="#Electronic_Device"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Multicore_CPU"/>
         <Class IRI="#CPU"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Personal_Computer"/>
-        <Class IRI="#Stable"/>
+        <Class IRI="#Obsolete_Device"/>
+        <Class IRI="#Electronic_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phablet"/>
+        <Class IRI="#Handheld_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Phone"/>
         <Class IRI="#Handheld_Device"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Portable"/>
-        <Class IRI="#Computing_Device"/>
+        <Class IRI="#Portable_Device"/>
+        <Class IRI="#Electronic_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Powerbook"/>
         <Class IRI="#Laptop"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Quantum_CPU"/>
+        <Class IRI="#CPU"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantum_Computer"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#RAM"/>
         <Class IRI="#Memory"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SSD"/>
-        <Class IRI="#Hard_Drive"/>
+        <Class IRI="#Secure_Device"/>
+        <Class IRI="#Electronic_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Security_Feature"/>
         <Class IRI="#Feature"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Serial_Number"/>
-        <Class IRI="#Unique_Number"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Server"/>
-        <Class IRI="#Stable"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Singlecore_CPU"/>
@@ -478,15 +752,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Smart_Glasses"/>
-        <Class IRI="#Wearable"/>
+        <Class IRI="#Wearable_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Smart_Watch"/>
-        <Class IRI="#Wearable"/>
+        <Class IRI="#Wearable_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stable"/>
-        <Class IRI="#Computing_Device"/>
+        <Class IRI="#Electronic_Device"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Super_Portable_Laptop"/>
@@ -498,15 +772,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TouchID_Sensor"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouchID_Sensor"/>
         <Class IRI="#Security_Feature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Touch_Screen"/>
-        <Class IRI="#Feature"/>
+        <Class IRI="#Input_Method"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Wearable"/>
-        <Class IRI="#Portable"/>
+        <Class IRI="#Wearable_Device"/>
+        <Class IRI="#Portable_Device"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#CPU"/>
@@ -515,310 +793,744 @@
         <Class IRI="#Motherboard"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Company"/>
+        <Class IRI="#Product"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Current_Device"/>
+        <Class IRI="#Obsolete_Device"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Desktop_Computer"/>
+        <Class IRI="#Laptop"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Electronic_Device"/>
+        <Class IRI="#Electronic_Part"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Electronic_Device"/>
+        <Class IRI="#Feature"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#FaceID_Sensor"/>
         <Class IRI="#TouchID_Sensor"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#GPS_Locator"/>
+        <Class IRI="#Input_Method"/>
         <Class IRI="#Security_Feature"/>
-        <Class IRI="#Touch_Screen"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#HDD"/>
-        <Class IRI="#SSD"/>
+        <Class IRI="#Gaming_Desktop_Computer"/>
+        <Class IRI="#Gaming_Laptop"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Handheld_Device"/>
         <Class IRI="#Laptop"/>
-        <Class IRI="#Wearable"/>
+        <Class IRI="#Wearable_Device"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Hard_Drive"/>
         <Class IRI="#RAM"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Keyboard"/>
+        <Class IRI="#Mouse"/>
+        <Class IRI="#Touch_Screen"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Multicore_CPU"/>
         <Class IRI="#Singlecore_CPU"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Portable"/>
+        <Class IRI="#Portable_Device"/>
         <Class IRI="#Stable"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#SSD"/>
-        <NamedIndividual IRI="#ADATA_XPG_Gammix_S50_1TB"/>
+        <Class IRI="#Hard_Drive"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Singlecore_CPU"/>
-        <NamedIndividual IRI="#AMD_Athlon_XP"/>
+        <Class IRI="#Hard_Drive"/>
+        <NamedIndividual IRI="#ena_allo_HardDrive"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GPU"/>
-        <NamedIndividual IRI="#AMD_Radeon_RX_6900_XT"/>
+        <Class IRI="#Keyboard"/>
+        <NamedIndividual IRI="#ena_allo_keyboard"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Multicore_CPU"/>
-        <NamedIndividual IRI="#AMD_Ryzen_5_5600X"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Multicore_CPU"/>
-        <NamedIndividual IRI="#AMD_Ryzen_9_5900X"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Motherboard"/>
-        <NamedIndividual IRI="#ASRock_AB350M"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Motherboard"/>
-        <NamedIndividual IRI="#ASUS_ROG_Maximus_XII"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Personal_Computer"/>
-        <NamedIndividual IRI="#Alienware_Aurora_R11"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Enabled_SW"/>
-        <NamedIndividual IRI="#Apple_Watch_Series_7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Server"/>
-        <NamedIndividual IRI="#Cisco_UCS_C220_M5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#RAM"/>
-        <NamedIndividual IRI="#Corsair_Vengeance_LPX_16GB_DDR4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Server"/>
-        <NamedIndividual IRI="#Dell_PowerEdge_R740"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Personal_Computer"/>
-        <NamedIndividual IRI="#Dell_Precision"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#FaceID_Sensor"/>
-        <NamedIndividual IRI="#Face_Recognition_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#FaceID_Sensor"/>
-        <NamedIndividual IRI="#Face_Unlock_2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Enabled_SW"/>
-        <NamedIndividual IRI="#Fitbit_Versa_3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#RAM"/>
-        <NamedIndividual IRI="#G.Skill_Ripjaws_V_16GB_DDR4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Locator"/>
-        <NamedIndividual IRI="#Garmin_Forerunner_245"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Enabled_SW"/>
-        <NamedIndividual IRI="#Garmin_Vivoactive_4S"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Smart_Glasses"/>
-        <NamedIndividual IRI="#Google_Glass"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Phone"/>
-        <NamedIndividual IRI="#Google_Pixel_4a"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Super_Portable_Laptop"/>
-        <NamedIndividual IRI="#Google_Pixelbook_Go"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#HDD"/>
-        <NamedIndividual IRI="#HGST_Ultrastar_7K8000_12TB"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Super_Portable_Laptop"/>
-        <NamedIndividual IRI="#HP_Elite_Dragonfly"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Personal_Computer"/>
-        <NamedIndividual IRI="#HP_ZBook"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tablet"/>
-        <NamedIndividual IRI="#Huawei_MediaPad_M5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Phone"/>
-        <NamedIndividual IRI="#Huawei_P40_Pro"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Enabled_SW"/>
-        <NamedIndividual IRI="#Huawei_Watch_GT_2_Pro"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Multicore_CPU"/>
-        <NamedIndividual IRI="#Intel_Core_i7-11700K"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Multicore_CPU"/>
-        <NamedIndividual IRI="#Intel_Core_i9-11900K"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Singlecore_CPU"/>
-        <NamedIndividual IRI="#Intel_Pentium_4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Multicore_CPU"/>
-        <NamedIndividual IRI="#Intel_Xeon_Platinum_8380"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tablet"/>
-        <NamedIndividual IRI="#Kindle_Fire_HDX"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#SSD"/>
-        <NamedIndividual IRI="#Kingston_A2000_NVMe_1TB"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Server"/>
-        <NamedIndividual IRI="#Lenovo_ThinkSystem_SR635"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Motherboard"/>
-        <NamedIndividual IRI="#MSI_MPG_Z490"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Super_Portable_Laptop"/>
-        <NamedIndividual IRI="#MacBook_Air"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Smart_Glasses"/>
-        <NamedIndividual IRI="#Meta_2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Smart_Glasses"/>
-        <NamedIndividual IRI="#Microsoft_Hololens"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Personal_Computer"/>
-        <NamedIndividual IRI="#Microsoft_Surface_Studio"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPU"/>
-        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3060"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPU"/>
-        <NamedIndividual IRI="#NVIDIA_GeForce_RTX_3090"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Phone"/>
-        <NamedIndividual IRI="#Oppo_A53"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Locator"/>
-        <NamedIndividual IRI="#Polar_M430"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Powerbook"/>
-        <NamedIndividual IRI="#PowerBook_G3_Wallstreet"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Powerbook"/>
-        <NamedIndividual IRI="#PowerBook_G4_Aluminum"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#SSD"/>
-        <NamedIndividual IRI="#Samsung_860_EVO_1TB"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Phone"/>
-        <NamedIndividual IRI="#Samsung_Galaxy_S21"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tablet"/>
-        <NamedIndividual IRI="#Samsung_Galaxy_Tab_S7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#HDD"/>
-        <NamedIndividual IRI="#Seagate_Barracuda_2TB"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#HDD"/>
-        <NamedIndividual IRI="#Seagate_SkyHawk_Surveillance_8TB"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GPS_Locator"/>
-        <NamedIndividual IRI="#TomTom_Spark_3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#HDD"/>
-        <NamedIndividual IRI="#Toshiba_P300_3TB"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#TouchID_Sensor"/>
-        <NamedIndividual IRI="#TouchID_Sensor_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#TouchID_Sensor"/>
-        <NamedIndividual IRI="#TouchID_Sensor_2"/>
+        <Class IRI="#Mouse"/>
+        <NamedIndividual IRI="#ena_allo_mouse"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Touch_Screen"/>
-        <NamedIndividual IRI="#Touch_Screen_00"/>
+        <NamedIndividual IRI="#ena_allo_touch_screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desktop_Computer"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceID_Sensor"/>
+        <NamedIndividual IRI="#ena_faceid_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming_Desktop_Computer"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laptop"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smart_Watch"/>
+        <NamedIndividual IRI="#ena_gps_enabled_sw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPS_Locator"/>
+        <NamedIndividual IRI="#ena_gps_locator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GPU"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GSM_antenna"/>
+        <NamedIndividual IRI="#ena_gsm_antenna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Keyboard"/>
+        <NamedIndividual IRI="#ena_keyboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motherboard"/>
+        <NamedIndividual IRI="#ena_motherboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mouse"/>
+        <NamedIndividual IRI="#ena_mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CPU"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CPU"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laptop"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Computer"/>
+        <NamedIndividual IRI="#ena_quantum_computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quantum_CPU"/>
+        <NamedIndividual IRI="#ena_quantum_cpu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laptop"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Singlecore_CPU"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laptop"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electronic_Device"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Portable_Device"/>
+        <NamedIndividual IRI="#ena_tablet"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Touch_Screen"/>
-        <NamedIndividual IRI="#Touch_Screen_01"/>
+        <NamedIndividual IRI="#ena_touch_screen"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#HDD"/>
-        <NamedIndividual IRI="#Western_Digital_Blue_1TB"/>
+        <Class IRI="#TouchID_Sensor"/>
+        <NamedIndividual IRI="#ena_touchid_sensor"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Personal_Computer"/>
-        <NamedIndividual IRI="#iMac_Pro"/>
+        <Class IRI="#Hard_Drive"/>
+        <NamedIndividual IRI="#ena_trito_HardDrive"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Phone"/>
-        <NamedIndividual IRI="#iPhone_12_Pro"/>
+        <Class IRI="#Touch_Screen"/>
+        <NamedIndividual IRI="#ena_trito_touch_screen"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Serial_Number"/>
-        <NamedIndividual IRI="#111111111"/>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#foveri_etairia"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Serial_Number"/>
-        <NamedIndividual IRI="#123456789"/>
+        <Class IRI="#Smart_Glasses"/>
+        <NamedIndividual IRI="#kati_smart_glasses"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MAC_Address"/>
-        <NamedIndividual IRI="#48-5D-60-F5-5F-A4"/>
+        <Class IRI="#RAM"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MAC_Address"/>
-        <NamedIndividual IRI="#48-5D-60-F5-5F-A5"/>
+        <Class IRI="#RAM"/>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MAC_Address"/>
-        <NamedIndividual IRI="#48-5D-60-F5-5F-A6"/>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#tromeri_etairia"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Serial_Number"/>
-        <NamedIndividual IRI="#987654321"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Tablet"/>
-        <NamedIndividual IRI="#iPad_Pro_(2022)"/>
-    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_GPU"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_input_method"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_keyboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_input_method"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_mouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_more_expensive_than"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_GPU"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_trito_HardDrive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_input_method"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_allo_keyboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_input_method"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_allo_mouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_more_expensive_than"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_GPU"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#ena_allo_HardDrive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#manufactured_by"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#tromeri_etairia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_gps_locator"/>
+        <NamedIndividual IRI="#ena_gps_enabled_sw"/>
+        <NamedIndividual IRI="#ena_gps_locator"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+        <NamedIndividual IRI="#ena_gps_enabled_sw"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_compatible_with"/>
+        <NamedIndividual IRI="#ena_motherboard"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_compatible_with"/>
+        <NamedIndividual IRI="#ena_motherboard"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_GSM_antenna"/>
+        <NamedIndividual IRI="#ena_phablet"/>
+        <NamedIndividual IRI="#ena_gsm_antenna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_only_input_method"/>
+        <NamedIndividual IRI="#ena_phablet"/>
+        <NamedIndividual IRI="#ena_touch_screen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_GSM_antenna"/>
+        <NamedIndividual IRI="#ena_phone"/>
+        <NamedIndividual IRI="#ena_gsm_antenna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_only_input_method"/>
+        <NamedIndividual IRI="#ena_phone"/>
+        <NamedIndividual IRI="#ena_allo_touch_screen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_GPU"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_feature"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <NamedIndividual IRI="#ena_touchid_sensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <NamedIndividual IRI="#ena_quantum_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_quantum_computer"/>
+        <NamedIndividual IRI="#ena_quantum_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_security_feature"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
+        <NamedIndividual IRI="#ena_faceid_sensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_security_feature"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
+        <NamedIndividual IRI="#ena_touchid_sensor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_only_input_method"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+        <NamedIndividual IRI="#ena_trito_touch_screen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#manufactures"/>
+        <NamedIndividual IRI="#foveri_etairia"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#manufactures"/>
+        <NamedIndividual IRI="#tromeri_etairia"/>
+        <NamedIndividual IRI="#ena_phone"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacity"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_HardDrive"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_allo_HardDrive"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_allo_keyboard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_allo_mouse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#ena_desktop_computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_faceid_sensor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#length"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#width"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">30.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_gps_enabled_sw"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_gps_locator"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#freq"/>
+        <NamedIndividual IRI="#ena_gpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_gsm_antenna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-11T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_keyboard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_motherboard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_mouse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cores"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#freq"/>
+        <NamedIndividual IRI="#ena_multicore_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cores"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#freq"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_phablet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#screen_size"/>
+        <NamedIndividual IRI="#ena_phablet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_phone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_powerbook"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_quantum_computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_quantum_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_secure_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#screen_size"/>
+        <NamedIndividual IRI="#ena_tablet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">9.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_touch_screen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_touchid_sensor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_trito_HardDrive"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2015-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#ena_trito_touch_screen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#kati_smart_glasses"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacity"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacity"/>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date_introduced"/>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CPU_is_in"/>
+        <ObjectProperty IRI="#is_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#GPU_is_in"/>
+        <ObjectProperty IRI="#is_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains_GPU"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains_GSM_antenna"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <ObjectProperty IRI="#contains_Memory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains_Memory"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <ObjectProperty IRI="#contains_Memory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_gps_locator"/>
+        <ObjectProperty IRI="#has_feature"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_input_method"/>
+        <ObjectProperty IRI="#has_feature"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_only_input_method"/>
+        <ObjectProperty IRI="#has_feature"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_security_feature"/>
+        <ObjectProperty IRI="#has_feature"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CPU_is_in"/>
+        <ObjectProperty IRI="#contains_CPU"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GPU_is_in"/>
+        <ObjectProperty IRI="#contains_GPU"/>
+    </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#is_in"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#has_mac_address"/>
-        <ObjectProperty IRI="#is_mac_address_of"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#is_cheaper_than"/>
@@ -829,19 +1541,22 @@
         <ObjectProperty IRI="#manufactures"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#has_mac_address"/>
+        <ObjectProperty IRI="#contains_CPU"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#has_serial_number"/>
+        <ObjectProperty IRI="#contains_GPU"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_only_input_method"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#manufactured_by"/>
     </FunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="#is_mac_address_of"/>
+        <ObjectProperty IRI="#CPU_is_in"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="#is_serial_number_of"/>
+        <ObjectProperty IRI="#GPU_is_in"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="#manufactures"/>
@@ -853,11 +1568,176 @@
         <ObjectProperty IRI="#is_compatible_with"/>
     </SymmetricObjectProperty>
     <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
         <ObjectProperty IRI="#is_cheaper_than"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#is_more_expensive_than"/>
     </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CPU_is_in"/>
+        <Class IRI="#CPU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GPU_is_in"/>
+        <Class IRI="#GPU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Electronic_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains_GSM_antenna"/>
+        <Class IRI="#Electronic_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_feature"/>
+        <Class IRI="#Electronic_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_compatible_with"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_in"/>
+        <Class IRI="#Electronic_Part"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_more_expensive_than"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#manufactured_by"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#manufactures"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CPU_is_in"/>
+        <Class IRI="#Electronic_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GPU_is_in"/>
+        <Class IRI="#Electronic_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Electronic_Part"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains_CPU"/>
+        <Class IRI="#CPU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains_GPU"/>
+        <Class IRI="#GPU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains_GSM_antenna"/>
+        <Class IRI="#GSM_antenna"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains_HardDrive"/>
+        <Class IRI="#Hard_Drive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains_Memory"/>
+        <Class IRI="#Memory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <Class IRI="#RAM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_feature"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_gps_locator"/>
+        <Class IRI="#GPS_Locator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_input_method"/>
+        <Class IRI="#Input_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_only_input_method"/>
+        <Class IRI="#Input_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_same_manufacturer"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_security_feature"/>
+        <Class IRI="#Security_Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_compatible_with"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_in"/>
+        <Class IRI="#Electronic_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_more_expensive_than"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#manufactured_by"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#manufactures"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#cores"/>
         <DataProperty IRI="#specs"/>
@@ -875,13 +1755,111 @@
         <DataProperty IRI="#size"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#screen_size"/>
         <DataProperty IRI="#size"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#size"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#weight"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#width"/>
         <DataProperty IRI="#size"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#cores"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#date_introduced"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#height"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#length"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#weight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#width"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacity"/>
+        <Class IRI="#Memory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date_introduced"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#screen_size"/>
+        <Class IRI="#Portable_Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#specs"/>
+        <ObjectUnionOf>
+            <Class IRI="#CPU"/>
+            <Class IRI="#GPU"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <ObjectUnionOf>
+            <Class IRI="#Electronic_Device"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacity"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cores"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date_introduced"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#freq"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#height"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#length"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#screen_size"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#width"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
 </Ontology>
 
 
