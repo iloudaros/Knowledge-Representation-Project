@@ -298,6 +298,9 @@
         <NamedIndividual IRI="#ena_keyboard"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ena_laptop"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ena_motherboard"/>
     </Declaration>
     <Declaration>
@@ -378,10 +381,10 @@
         <ObjectIntersectionOf>
             <Class IRI="#Electronic_Device"/>
             <ObjectComplementOf>
-                <ObjectOneOf>
-                    <NamedIndividual IRI="#ena_desktop_computer"/>
-                    <NamedIndividual IRI="#ena_gaming_laptop"/>
-                </ObjectOneOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#contains"/>
+                    <Class IRI="#Obsolete_Part"/>
+                </ObjectSomeValuesFrom>
             </ObjectComplementOf>
             <DataSomeValuesFrom>
                 <DataProperty IRI="#date_introduced"/>
@@ -1012,7 +1015,7 @@
         <NamedIndividual IRI="#ena_secure_laptop"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Singlecore_CPU"/>
+        <Class IRI="#CPU"/>
         <NamedIndividual IRI="#ena_singlecore_cpu"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1063,6 +1066,10 @@
         <Class IRI="#Company"/>
         <NamedIndividual IRI="#tromeri_etairia"/>
     </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#ena_laptop"/>
+        <NamedIndividual IRI="#ena_super_portable_laptop"/>
+    </SameIndividual>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#contains_CPU"/>
         <NamedIndividual IRI="#ena_desktop_computer"/>
@@ -1167,6 +1174,11 @@
         <ObjectProperty IRI="#contains_RAM"/>
         <NamedIndividual IRI="#ena_gaming_laptop"/>
         <NamedIndividual IRI="#mia_megali_mnimi_ram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains_RAM"/>
+        <NamedIndividual IRI="#ena_gaming_laptop"/>
+        <NamedIndividual IRI="#mia_mnimi_ram"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#is_cheaper_than"/>
@@ -1484,9 +1496,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#cores"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#date_introduced"/>
         <NamedIndividual IRI="#ena_singlecore_cpu"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-12T14:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#freq"/>
+        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#date_introduced"/>
