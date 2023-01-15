@@ -25,6 +25,9 @@
         <Class IRI="#Current_Device"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Current_Part"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Desktop_Computer"/>
     </Declaration>
     <Declaration>
@@ -92,6 +95,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Obsolete_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obsolete_Part"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Phablet"/>
@@ -371,6 +377,12 @@
         <Class IRI="#Current_Device"/>
         <ObjectIntersectionOf>
             <Class IRI="#Electronic_Device"/>
+            <ObjectComplementOf>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#ena_desktop_computer"/>
+                    <NamedIndividual IRI="#ena_gaming_laptop"/>
+                </ObjectOneOf>
+            </ObjectComplementOf>
             <DataSomeValuesFrom>
                 <DataProperty IRI="#date_introduced"/>
                 <DatatypeRestriction>
@@ -380,6 +392,15 @@
                     </FacetRestriction>
                 </DatatypeRestriction>
             </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Current_Part"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Part"/>
+            <ObjectComplementOf>
+                <Class IRI="#Obsolete_Part"/>
+            </ObjectComplementOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -479,9 +500,36 @@
         <Class IRI="#Obsolete_Device"/>
         <ObjectIntersectionOf>
             <Class IRI="#Electronic_Device"/>
-            <ObjectComplementOf>
-                <Class IRI="#Current_Device"/>
-            </ObjectComplementOf>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#contains"/>
+                    <Class IRI="#Obsolete_Part"/>
+                </ObjectSomeValuesFrom>
+                <DataSomeValuesFrom>
+                    <DataProperty IRI="#date_introduced"/>
+                    <DatatypeRestriction>
+                        <Datatype abbreviatedIRI="xsd:dateTime"/>
+                        <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-01T00:00:00</Literal>
+                        </FacetRestriction>
+                    </DatatypeRestriction>
+                </DataSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Obsolete_Part"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Part"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#date_introduced"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-01T00:00:00</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -551,6 +599,15 @@
         </DataHasValue>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#Stable"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Electronic_Device"/>
+            <ObjectComplementOf>
+                <Class IRI="#Portable_Device"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#Super_Portable_Laptop"/>
         <ObjectIntersectionOf>
             <Class IRI="#Laptop"/>
@@ -603,12 +660,23 @@
         <Class IRI="#Electronic_Device"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Current_Part"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Desktop_Computer"/>
         <Class IRI="#Stable"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Electronic_Device"/>
         <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronic_Device"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#Electronic_Part"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Electronic_Part"/>
@@ -711,6 +779,10 @@
         <Class IRI="#Electronic_Device"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Obsolete_Part"/>
+        <Class IRI="#Electronic_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Phablet"/>
         <Class IRI="#Handheld_Device"/>
     </SubClassOf>
@@ -799,6 +871,10 @@
     <DisjointClasses>
         <Class IRI="#Current_Device"/>
         <Class IRI="#Obsolete_Device"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Current_Part"/>
+        <Class IRI="#Obsolete_Part"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Desktop_Computer"/>
@@ -990,7 +1066,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#contains_CPU"/>
         <NamedIndividual IRI="#ena_desktop_computer"/>
-        <NamedIndividual IRI="#ena_singlecore_cpu"/>
+        <NamedIndividual IRI="#ena_palio_cpu"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#contains_GPU"/>
@@ -1061,6 +1137,11 @@
         <ObjectProperty IRI="#has_same_manufacturer"/>
         <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
         <NamedIndividual IRI="#ena_desktop_computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_cheaper_than"/>
+        <NamedIndividual IRI="#ena_gaming_desktop_computer"/>
+        <NamedIndividual IRI="#ena_quantum_computer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#is_more_expensive_than"/>
@@ -1585,14 +1666,6 @@
         <Class IRI="#GPU"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#contains"/>
-        <Class IRI="#Electronic_Device"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#contains_GSM_antenna"/>
-        <Class IRI="#Electronic_Device"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_feature"/>
         <Class IRI="#Electronic_Device"/>
     </ObjectPropertyDomain>
@@ -1770,6 +1843,9 @@
         <DataProperty IRI="#width"/>
         <DataProperty IRI="#size"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#capacity"/>
+    </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#cores"/>
     </FunctionalDataProperty>
